@@ -118,14 +118,17 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
 1. **Folder Structure:** Create two main directories:
    - `src`: For your source code files (CSS).
    - `dist`: For production submission files (Link your `index.html` here).
-   ![Folder Structure](./assets/structure.png)
+
+![Folder Structure](./assets/structure.png)
 
 2. **Initialize Node:** Run `npm init -y` (optional) and then use **npx (Node Package Executor)** to initialize Tailwind:
    ```bash
    npx tailwindcss init
    ```
    *This creates a new `tailwind.config.js` file.*
-   ![creation](./assets/2.png)
+
+![creation](./assets/2.png)
+
 3. **Source CSS:** Create `input.css` in the `src` folder and add the following directives:
    ```css
    @tailwind base;
@@ -134,7 +137,8 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    ```
    > [!TIP]
    > **Linting Issues:** If you see "unknown at-rule" warnings, go to **Settings**, search for **"unknown linting"**, and set it to **Ignore**.
-   ![global.css configurations](./assets/4.png)
+
+![global.css configurations](./assets/4.png)
 
 4. **Template HTML:** Create `index.html` inside the `dist` folder.
    ```html
@@ -146,7 +150,9 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    ```javascript
    content : ["./dist/index.html"]
    ```
-  ![tailwind.config.js configurations](./assets/3.png)
+
+![tailwind.config.js configurations](./assets/3.png)
+
 6. **Build & Watch:** Link your CSS and start the build process:
    ```bash
    npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
@@ -154,8 +160,10 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    - `-i`: Input file path.
    - `-o`: Output file path.
    - `--watch`: Automatically updates the output CSS when you save changes without needing to reload or rebuild manually.
+
 ![input output configurations](./assets/6.png)
 ![results](./assets/6.png)
+
 ---
 
 ### 5.3 Next.js + Tailwind CSS v4 Initialization
@@ -170,7 +178,9 @@ npx create-next-app@latest tailwind-demo-app
 - **Tailwind CSS:** *Yes* (Automates plugin installation).
 - **App Router:** *Yes* (The modern way to build Next.js apps).
 - **Import Alias:** `@/*` (Standard for cleaner imports).
+
 ![setup](./assets/setup.png)
+
 **Selection Breakdown Parameters:**
 - **TypeScript:** Adds static typing to JavaScript. Highly recommended for long-term maintainability, as it catches errors during development rather than at runtime. It helps clarify what data structures are being used throughout your app.
 - **ESLint:** A linter (like ESLint or Biome) enforces consistent coding standards across the team. It identifies problematic patterns, potential bugs, or code that doesn't adhere to specific style guidelines, ensuring a clean codebase.
@@ -196,7 +206,7 @@ In your `app/globals.css` (or equivalent), you now only need a single import:
 > [!NOTE]
 > Unlike v3, which required `@tailwind base;`, `@tailwind components;`, and `@tailwind utilities;`, v4 uses a standard CSS `@import` which handles everything internally.
 
-![folder_sytructure](./assets/folder_structure.png)
+![folder_structure](./assets/folder_structure.png)
 ---
 
 ## 6. Tailwind CSS Configuration
@@ -278,7 +288,9 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 - **Palette:** Includes 50+ hand-picked colors across 10 shades, plus flexible opacity modifiers.
 
 **Colors Demo:**
+
 ![colors](./assets/colors.png)
+
 ```xml
 <section class="bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-2xl font-bold mb-4">Colors</h2>
@@ -643,7 +655,10 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 ##### Layouts (flex, grid, absolute, etc.)
 **Flexbox Demo:**
 
-<iframe width="560" height="315" src="./assets/flex.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video controls width="720">
+  <source src="./assets/flex.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ```xml
 
@@ -1427,5 +1442,3 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
-
-
