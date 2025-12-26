@@ -657,7 +657,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 **Flexbox Demo:**
 
 <video width="720" controls>
-  <source src="[./assets/demo.mp4](https://github.com/rasikathakur/tailwind_css_documentation/blob/main/documentation/assets/flex.mp4)" type="video/mp4">
+  <source src="https://github.com/rasikathakur/tailwind_css_documentation/blob/main/documentation/assets/flex.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -1443,6 +1443,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
