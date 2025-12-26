@@ -119,7 +119,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    - `src`: For your source code files (CSS).
    - `dist`: For production submission files (Link your `index.html` here).
 
-  ![Folder Structure](./assets/structure.png)
+   ![Folder Structure](./assets/structure.png)
 
 2. **Initialize Node:** Run `npm init -y` (optional) and then use **npx (Node Package Executor)** to initialize Tailwind:
    ```bash
@@ -145,12 +145,12 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    <div class="bg-slate-900 text-white">Hey!</div>
    ```
    *Note: This will not work yet until we configure the module export.*
-![index.html](./assets/5.png)
+   ![index.html](./assets/5.png)
 5. **Configure Content:** Open `tailwind.config.js` and update the `content` array:
    ```javascript
    content : ["./dist/index.html"]
    ```
-  ![tailwind.config.js configurations](./assets/3.png)
+   ![tailwind.config.js configurations](./assets/3.png)
 
 6. **Build & Watch:** Link your CSS and start the build process:
    ```bash
@@ -161,6 +161,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    - `--watch`: Automatically updates the output CSS when you save changes without needing to reload or rebuild manually.
 
    ![input output configurations](./assets/6.png)
+   
    ![results](./assets/7.png)
 
 ---
@@ -206,6 +207,7 @@ In your `app/globals.css` (or equivalent), you now only need a single import:
 > Unlike v3, which required `@tailwind base;`, `@tailwind components;`, and `@tailwind utilities;`, v4 uses a standard CSS `@import` which handles everything internally.
 
 ![folder_structure](./assets/folder_structure.png)
+
 ---
 
 ## 6. Tailwind CSS Configuration
@@ -1441,4 +1443,5 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
