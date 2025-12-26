@@ -1,4 +1,4 @@
-<img width="480" height="225" alt="image" src="https://github.com/user-attachments/assets/455284e0-32f1-4e47-a5ca-6a9784977b77" /># Tailwind CSS: A Comprehensive Modern Guide
+# Tailwind CSS: A Comprehensive Modern Guide
 
 
 This document serves as an internal resource for mastering Tailwind CSS, covering everything from its utility-first philosophy to the latest advancements in version 4.
@@ -1414,6 +1414,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
