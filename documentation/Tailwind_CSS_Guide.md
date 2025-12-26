@@ -655,11 +655,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 
 ##### Layouts (flex, grid, absolute, etc.)
 **Flexbox Demo:**
-
-<video width="720" controls>
-  <source src="https://github.com/rasikathakur/tailwind_css_documentation/blob/main/documentation/assets/flex.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/9744f3da-08e8-4a85-b840-da93622640c8
 
 ```xml
 
@@ -727,10 +723,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 
 **Grid Demo:**
 
-<video controls width="720">
-  <source src="./assets/grid.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/b5ca1ef2-0838-4fd0-9b6c-c19bda82f889
 
 ```xml
 
@@ -790,10 +783,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 
 **Borders & Shadows Demo:**
 
-<video controls width="720">
-  <source src="./assets/border.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/e4de2998-3a8b-418d-9f72-0d1d9860d9bd
 
 ```xml
 <div class="p-12 space-y-6 bg-gradient-to-br from-rose-50 to-orange-50">
@@ -816,10 +806,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 
 **Complete Backgrounds Demo:**
 
-<video controls width="720">
-  <source src="./assets/bg.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/d84d4056-2f1a-41d9-bbf5-a53760dbf4fe
 
 ```xml
 
@@ -917,10 +904,7 @@ Tailwind adopts a mobile-first breakpoint system with intuitive prefixes.
 
 **Responsive Demo:**
 
-<video controls width="720">
-  <source src="./assets/responsive.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/5af57439-a75b-47a0-b854-08be933fe8d6
 
 ```xml
 
@@ -1015,10 +999,7 @@ Tailwind adopts a mobile-first breakpoint system with intuitive prefixes.
 
 **State Variants Demo:**
 
-<video controls width="720">
-  <source src="./assets/states.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/fe74e21a-fc50-4451-a71f-ddfd860bb8b4
 
 ```xml
 
@@ -1134,10 +1115,11 @@ Tailwind supports two dark mode strategies: media (system preference) and class 
 
 **Dark Mode Demo (Full Page Implementation):**
 
-<video controls width="720">
-  <source src="./assets/dark.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/e4fee6c6-3dae-444e-b6c7-479d15eef728
+
+
 
 ```xml
 <!DOCTYPE html>
@@ -1274,10 +1256,7 @@ Show a real-world implementation of a **Responsive Card List**.
 
 ### 13.2 Code Snippets
 
-<video controls width="720">
-  <source src="./assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
 
 #### `components/FeatureCard.tsx`
 ```xml
@@ -1443,6 +1422,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
