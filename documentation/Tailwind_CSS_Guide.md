@@ -1,14 +1,5 @@
 # Tailwind CSS: A Comprehensive Modern Guide
 
-<!-- <video controls width="720" poster="/abc-poster.jpg">
-  <source src="/abc.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<picture>
-  <source srcset="/abc.webp" type="image/webp">
-  <img src="/abc.png" alt="Tailwind demo image" width="720" style="display:block;margin:12px 0;border-radius:6px;">
-</picture> -->
 
 This document serves as an internal resource for mastering Tailwind CSS, covering everything from its utility-first philosophy to the latest advancements in version 4.
 
@@ -655,6 +646,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 
 ##### Layouts (flex, grid, absolute, etc.)
 **Flexbox Demo:**
+
 https://github.com/user-attachments/assets/9744f3da-08e8-4a85-b840-da93622640c8
 
 ```xml
@@ -1422,6 +1414,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
