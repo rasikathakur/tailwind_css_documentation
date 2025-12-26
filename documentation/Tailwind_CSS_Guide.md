@@ -119,7 +119,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    - `src`: For your source code files (CSS).
    - `dist`: For production submission files (Link your `index.html` here).
 
-![Folder Structure](./assets/structure.png)
+  ![Folder Structure](./assets/structure.png)
 
 2. **Initialize Node:** Run `npm init -y` (optional) and then use **npx (Node Package Executor)** to initialize Tailwind:
    ```bash
@@ -127,7 +127,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    ```
    *This creates a new `tailwind.config.js` file.*
 
-![creation](./assets/2.png)
+   ![creation](./assets/2.png)
 
 3. **Source CSS:** Create `input.css` in the `src` folder and add the following directives:
    ```css
@@ -138,7 +138,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    > [!TIP]
    > **Linting Issues:** If you see "unknown at-rule" warnings, go to **Settings**, search for **"unknown linting"**, and set it to **Ignore**.
 
-![global.css configurations](./assets/4.png)
+   ![global.css configurations](./assets/4.png)
 
 4. **Template HTML:** Create `index.html` inside the `dist` folder.
    ```html
@@ -150,8 +150,7 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    ```javascript
    content : ["./dist/index.html"]
    ```
-
-![tailwind.config.js configurations](./assets/3.png)
+  ![tailwind.config.js configurations](./assets/3.png)
 
 6. **Build & Watch:** Link your CSS and start the build process:
    ```bash
@@ -161,8 +160,8 @@ The CLI is the recommended way to use Tailwind for standard static projects or w
    - `-o`: Output file path.
    - `--watch`: Automatically updates the output CSS when you save changes without needing to reload or rebuild manually.
 
-![input output configurations](./assets/6.png)
-![results](./assets/6.png)
+   ![input output configurations](./assets/6.png)
+   ![results](./assets/7.png)
 
 ---
 
@@ -1442,3 +1441,4 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
