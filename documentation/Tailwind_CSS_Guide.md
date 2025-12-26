@@ -1248,7 +1248,7 @@ Show a real-world implementation of a **Responsive Card List**.
 
 ### 13.2 Code Snippets
 
-[![Demo Video](./assets/thumbnail.png)](https://drive.google.com/file/d/1K0JbCfTOTnP_dkROg8LaimoeARfyS6ix/view?usp=drive_link)
+[![Demo Video](./assets/thumbnail.png)](https://drive.google.com/file/d/1MUVbwLBayJuxbEPllssvVc2sTGEBlPuI/view?usp=sharing)
 
 #### `components/FeatureCard.tsx`
 ```xml
@@ -1414,6 +1414,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
