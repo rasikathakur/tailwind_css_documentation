@@ -643,10 +643,7 @@ In Tailwind v4, you define your design tokens directly in your CSS using the `@t
 ##### Layouts (flex, grid, absolute, etc.)
 **Flexbox Demo:**
 
-<video controls width="720">
-  <source src="./assets/flex.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="./assets/flex.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```xml
 
@@ -1430,3 +1427,4 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
