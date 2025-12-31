@@ -682,10 +682,20 @@ https://github.com/user-attachments/assets/9744f3da-08e8-4a85-b840-da93622640c8
       </div>
     </div>
 
-    <!-- Flex Wrap -->
+    <!-- Flex nowrap -->
     <div>
-      <p class="text-sm text-gray-700 mb-2">flex-wrap</p>
-      <div class="flex flex-wrap bg-purple-900 p-4 gap-4 w-72">
+      <p class="text-sm text-gray-700 mb-2">flex-nowrap</p>
+      <div class="flex flex-nowrap bg-purple-900 p-4 gap-4 w-30">
+        <div class="bg-purple-300 p-4 w-32">Item</div>
+        <div class="bg-purple-300 p-4 w-32">Item</div>
+        <div class="bg-purple-300 p-4 w-32">Item</div>
+      </div>
+    </div>
+
+    <!-- Flex wrap -->
+    <div>
+      <p class="text-sm text-gray-700 mb-2">flex-nowrap</p>
+      <div class="flex flex-nowrap bg-purple-900 p-4 gap-4 w-72">
         <div class="bg-purple-300 p-4 w-32">Item</div>
         <div class="bg-purple-300 p-4 w-32">Item</div>
         <div class="bg-purple-300 p-4 w-32">Item</div>
@@ -1414,6 +1424,7 @@ Tailwind CSS v4 is a significant leap forward, offering a more native CSS feel a
 - [Next.js Tailwind CSS Setup Guide](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css)
 - [Tailwind CSS v4 Release Notes](https://tailwindcss.com/blog/tailwindcss-v4-alpha)
 - [GitHub: Tailwind CSS Repository](https://github.com/tailwindlabs/tailwindcss)
+
 
 
 
